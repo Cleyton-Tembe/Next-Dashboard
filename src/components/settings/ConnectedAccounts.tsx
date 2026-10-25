@@ -9,7 +9,7 @@ const ConnectedAccounts = () => {
       id: 1,
       name: "Google",
       connected: true,
-      icon: "/google.png",
+      icon: "/google.svg",
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ const ConnectedAccounts = () => {
       id: 3,
       name: "Twitter",
       connected: true,
-      icon: "/x.png",
+      icon: "/twitter.svg",
     },
   ]);
   return (
