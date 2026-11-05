@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next Dashboard
 
-## Getting Started
+Painel de administração (dashboard) em Next.js com gráficos interactivos, tabelas com pesquisa e animações: visão geral, produtos, utilizadores, vendas, encomendas, análise e definições.
 
-First, run the development server:
+> **Âmbito do projecto:** este é um projecto de estudo. Fi-lo para me familiarizar com o Next.js (App Router), o Recharts para gráficos e o Framer Motion para animações, e para pôr em prática a construção de uma interface de administração completa e responsiva. Os dados são fictícios e estão no próprio código, sem base de dados. Não é um produto final.
+
+## Demo
+
+🔗 **[Ver demo](COLOCA_AQUI_O_LINK_DA_DEMO)**
+
+## Funcionalidades
+
+- **Barra lateral recolhível**, com ícones coloridos para cada secção
+- **Cartões de estatísticas** animados em todas as páginas
+- **7 páginas:**
+  - **Overview:** vendas ao longo do tempo, distribuição por categoria e vendas por canal
+  - **Products:** tabela de produtos com pesquisa e tendência de vendas
+  - **Users:** tabela de utilizadores com pesquisa, crescimento de utilizadores, mapa de calor da actividade e dados demográficos
+  - **Sales:** evolução das vendas, vendas por categoria e tendência diária
+  - **Orders:** tabela de encomendas com pesquisa, encomendas diárias e distribuição por estado
+  - **Analytics:** receita contra objectivo, desempenho por canal e por produto, retenção de utilizadores, segmentação de clientes e sugestões ("AI-Powered Insights")
+  - **Settings:** perfil, notificações com interruptores, segurança, contas ligadas e "zona de perigo"
+- Gráficos de linhas, barras, área, circulares e de radar, com tooltips
+- Animações de entrada com Framer Motion
+- Tema escuro e layout responsivo
+
+Os utilizadores de exemplo são personagens de Tekken (Jin Kazama, Kazuya Mishima…).
+
+## Tecnologias
+
+- **Next.js 15** (App Router) · **React 18** · **TypeScript**
+- **Recharts** (gráficos)
+- **Framer Motion** (animações)
+- **Tailwind CSS 4**
+- **Lucide React** (ícones)
+
+## Como correr localmente
+
+### Pré-requisitos
+
+- **Node.js 18.18 ou superior**
+
+Não precisas de base de dados nem de variáveis de ambiente.
+
+### Passos
 
 ```bash
+git clone https://github.com/Cleyton-Tembe/Next-Dashboard.git
+cd Next-Dashboard
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abre `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Autor
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Cleyton Tembe** — [GitHub](https://github.com/Cleyton-Tembe)
