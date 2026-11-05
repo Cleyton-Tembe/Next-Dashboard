@@ -6,7 +6,7 @@ Painel de administração (dashboard) em Next.js com gráficos interactivos, tab
 
 ## Demo
 
-🔗 **[Ver demo](COLOCA_AQUI_O_LINK_DA_DEMO)**
+🔗 **[Ver demo](https://next-dashboard-team-sw.vercel.app)**
 
 ## Funcionalidades
 
